@@ -28,3 +28,27 @@
     font-weight: 300;
     letter-spacing: 1.5px;
 }
+
+
+.left-img{
+    position: absolute;
+    top: 50%;
+    left: 28%;
+}
+
+.right-img{ 
+    position: absolute;
+    top: 50%;
+    right: 28%;
+}
+
+.circle{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    border: 0.7vw solid #0074B6;
+}
