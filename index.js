@@ -31,20 +31,27 @@ function computerSelect(){
 }
 
 
+
 const buttons = document.querySelectorAll('.icon');
 
 buttons.forEach(button=>{
     button.addEventListener('click', function(){
         const result = computerSelect();
-        if(result === this.id){
-            console.log("tie");   
-        } else{
-            console.log("won");   
+        console.log("Pc choosed " ,result);
+        console.log("You have choose " ,this.id);
+        
+        
+        if((this.id === "rock" && result === 'scissor') || (this.id === 'scissor' && result === 'paper') || (this.id === 'paper' && result === 'rock')){
+            console.log("You win");
+        }else if((this.id === "rock" && result === 'rock') || (this.id === 'scissor' && result === 'scissor') || (this.id === 'paper' && result === 'paper')){
+            console.log("Math tie");
+        }else{
+            console.log("pc win");   
         }
     })
 })
 
 
-// console.log(result);
+
 
 
