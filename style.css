@@ -154,6 +154,15 @@
     right: 35%;
 }
 
+.rule-btn{
+    color: white;
+    background-color: transparent;
+    padding: 0.5% 1%;
+    font-size: 1.2vw;
+    border: 0.2vw solid white;
+    border-radius: 0.5vw;
+}
+
 .rules-btn{
     color: white;
     background-color: transparent;
