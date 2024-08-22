@@ -34,12 +34,14 @@
     position: absolute;
     top: 50%;
     left: 28%;
+    z-index: 10;
 }
 
 .right-img{ 
     position: absolute;
     top: 50%;
     right: 28%;
+    z-index: 10;
 }
 
 .circle{
@@ -51,4 +53,50 @@
     border-radius: 50%;
     background-color: white;
     border: 0.7vw solid #0074B6;
+}
+
+
+.ellipse3-left{
+    position: absolute;
+    top: 37%;
+    left: 22.4%;
+}
+
+ 
+.ellipse4-left{
+    position: absolute;
+    top: 24.9%;
+    left: 16.7%;
+} 
+
+.ellipse5-left{
+    position: absolute;
+    width: 15%;
+    top: 42.5%;
+    left: 24.7%;
+    z-index: 5;
+    opacity: 50%;
+}
+
+
+.ellipse3-right{
+    position: absolute;
+    top: 37%;
+    right: 22.4%;
+}
+
+ 
+.ellipse4-right{
+    position: absolute;
+    top: 24.9%;
+    right: 16.7%;
+} 
+
+.ellipse5-right{
+    position: absolute;
+    width: 15%;
+    top: 42.5%;
+    right: 24.7%;
+    z-index: 5;
+    opacity: 50%;
 }
