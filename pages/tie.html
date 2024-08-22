@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Tie</title>
 </head>
 <body>
-    <h1>Match Tie</h1>
+    <div class="root">
+        <div class="header">
+            <div class="title">
+                <h2>ROCK</h2>
+                <h2>PAPER</h2>
+                <h2>SCISSORS</h2>
+            </div>
+            <div class="cards"><div class="card" id="computer-score">
+                <p>COMPUTER SCORE</p>
+                <h1 class="cmp-score">0</h1>
+            </div>
+            <div class="card" id="your-score">
+                <p>YOUR <br> SCORE</p>
+                <h1 class="ur-score">0</h1>
+            </div></div>
+        </div>
+
+        <div class="won-heading">
+            <div class="h1">
+                TIE UP
+            </div>
+            <a href="../index.html"><button class="play-again">
+                REPLAY
+            </button></a>
+        </div>
+
+        <button class="rules-btn">RULES</button>
+
+        <div class="games-rule" style="visibility: hidden;">
+            <h1>Game Rules</h1>
+            <div class="rules">
+                <div class="rule-list">
+                    <div class="sq">
+
+                    </div>
+                    <div class="rule">
+                        Rock beats scissors, scissors beat paper, and paper beats rock.
+                    </div>
+                </div>
+                <div class="rule-list">
+                    <div class="sq">
+
+                    </div>
+                    <div class="rule">
+                        Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”
+                    </div>
+                </div>
+                <div class="rule-list">
+                    <div class="sq">
+
+                    </div>
+                    <div class="rule">
+                        Use rock, paper, scissors to settle minor decisions or simply play to pass the time
+                    </div>
+                </div>
+                <div class="rule-list">
+                    <div class="sq">
+
+                    </div>
+                    <div class="rule">
+                        If both players lay down the same hand, each player lays down another hand
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="cross-btn" style="visibility: hidden;">X</button>
+
+    </div>
+
+    <script src="../index.js"></script>
 </body>
 </html>

@@ -43,13 +43,31 @@ buttons.forEach(button=>{
         
         if((this.id === "rock" && result === 'scissor') || (this.id === 'scissor' && result === 'paper') || (this.id === 'paper' && result === 'rock')){
             console.log("You win");
+            yourScore+=1;
+            urScore[0].innerText = yourScore;
+            const anchor = document.createElement('a');
+            anchor.href = './pages/won.html';
+            button.appendChild(anchor)
+            anchor.click();
         }else if((this.id === "rock" && result === 'rock') || (this.id === 'scissor' && result === 'scissor') || (this.id === 'paper' && result === 'paper')){
             console.log("Math tie");
+            const anchor = document.createElement('a');
+            anchor.href = './pages/tie.html';
+            button.appendChild(anchor)
+            anchor.click();
         }else{
             console.log("pc win");   
+            computerScore+=1;
+            cmpScore[0].innerText = computerScore;
+            const anchor = document.createElement('a');
+            anchor.href = './pages/lose.html';
+            button.appendChild(anchor)
+            anchor.click();
         }
     })
 })
+
+
 
 
 

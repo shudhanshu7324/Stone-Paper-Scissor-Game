@@ -1,0 +1,30 @@
+
+.won-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vw;
+}
+
+.h1{
+    color: white;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.h2{
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+.play-again{
+    background-color: white;
+    line-height: 2.5;
+    padding: 0 2vw;
+    margin-top: 1vw;
+    border-width: 0;
+    border-radius: 0.4vw;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
