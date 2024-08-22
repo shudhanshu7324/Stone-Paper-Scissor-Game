@@ -122,3 +122,79 @@ a{
     text-decoration: none;
     color: white;
 }
+
+
+.next-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.next-h1{
+    font-size: 4.2vw;
+    line-height: 1.8;
+    letter-spacing: 0.5vw;
+    color: white;
+}
+
+.next-h2{
+    font-size: 2.3vw;
+    color: white;
+}
+
+.trophy{
+    width: 14vw;
+}
+
+.next-main a{
+    margin-top: 2%;
+}
+
+.star{
+    position: absolute;
+}
+
+.star1{
+    width: 10vw;
+    top: 40%;
+    left: 32%;
+}
+
+.star2{
+    width: 10vw;
+    right: 32%;
+    top: 40%;
+}
+
+.star3{
+    width: 10vw;
+    top: 4%;
+    left: 45%;
+}
+
+.star4{
+    width: 7vw;
+    top: 15%;
+    left: 36%;
+}
+
+.star5{
+    width: 7vw;
+    right: 36%;
+    top: 15%;
+}
+
+.star6{
+    width: 4vw;
+    top: 34%;
+    left: 38%;
+}
+
+.star7{
+    width: 4vw;
+    top: 34%;
+    right: 38%;
+}
+
+
