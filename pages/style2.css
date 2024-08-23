@@ -151,50 +151,82 @@ a{
     margin-top: 2%;
 }
 
-.star{
-    position: absolute;
+/* Star Rocket Animation */
+@keyframes rocket {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+    25% {
+        transform: translate(30px, -100px) rotate(45deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(-50px, -200px) rotate(90deg);
+        opacity: 0.6;
+    }
+    75% {
+        transform: translate(70px, -300px) rotate(135deg);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(-30px, -400px) rotate(180deg);
+        opacity: 0;
+    }
 }
 
-.star1{
+.star {
+    position: absolute;
+    animation: rocket 2s ease-in-out infinite;
+}
+
+/* Individual star timings to stagger the animations */
+.star1 {
     width: 10vw;
     top: 40%;
     left: 32%;
+    animation-delay: 0s;
 }
 
-.star2{
+.star2 {
     width: 10vw;
     right: 32%;
     top: 40%;
+    animation-delay: 0.2s;
 }
 
-.star3{
+.star3 {
     width: 10vw;
     top: 4%;
     left: 45%;
+    animation-delay: 0.4s;
 }
 
-.star4{
+.star4 {
     width: 7vw;
     top: 15%;
     left: 36%;
+    animation-delay: 0.6s;
 }
 
-.star5{
+.star5 {
     width: 7vw;
     right: 36%;
     top: 15%;
+    animation-delay: 0.8s;
 }
 
-.star6{
+.star6 {
     width: 4vw;
     top: 34%;
     left: 38%;
+    animation-delay: 1s;
 }
 
-.star7{
+.star7 {
     width: 4vw;
     top: 34%;
     right: 38%;
+    animation-delay: 1.2s;
 }
-
 
