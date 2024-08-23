@@ -230,3 +230,21 @@ a{
     animation-delay: 1.2s;
 }
 
+
+@media (max-width:1500px) {
+    .elp{
+        visibility: hidden;
+    }
+}
+
+@media (max-width:800px){
+    .left-img{
+        top: 40%;
+        left: 42%;
+    }
+
+    .right-img{
+        top: 60%;
+        left: 42%;
+    }
+}

@@ -67,7 +67,6 @@
 .game-icons{
     display: flex;
     width: 30%;
-    min-width: 450px;
     height: 50%;
     margin: 0 auto;
     margin-top: 5%;
@@ -256,5 +255,41 @@ button:hover{
 
     .line3{
         visibility: hidden;
+    }
+
+    .game-icons{
+        width: 60%;
+        height: 50%;
+    }
+
+    .icon{
+        width: 100px;
+    }
+
+    .rock{
+        top: 60%;
+        left: 40%;
+    }
+
+    .paper{
+        top: 20%;
+        left: 40%;
+    }
+
+    .scissor{
+        top: 100%;
+        left: 40%;
+    }
+
+
+    .games-rule{
+        height: 20vh;
+        width: 80vw;
+        top: 70%;
+        
+    }
+
+    .cross-btn{
+        top: 70%;
     }
 }
